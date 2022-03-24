@@ -1,10 +1,6 @@
 @import url(/styles/common.css);
 @import url(/styles/utility.css);
 
-main{
-    
-}
-
 label{
     display: block;
     margin: 1rem;
@@ -41,12 +37,10 @@ input{
 }
 
 .alt-sign-btn{
-
     border: none;
     padding: 0.5rem;
     background-color: var(--desc-text-color);
     color: var(--ui-bg);
     margin: 1rem;
     cursor: pointer;
-
 }
