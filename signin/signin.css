@@ -37,12 +37,10 @@ input{
 }
 
 .alt-sign-btn{
-
     border: none;
     padding: 0.5rem;
     background-color: var(--desc-text-color);
     color: var(--ui-bg);
     margin: 1rem;
     cursor: pointer;
-
 }
