@@ -1,0 +1,60 @@
+@import url(/styles/utility.css);
+@import url(/styles/common.css);
+
+.card-img{
+    width: 10rem;
+}
+
+.heading-text{
+    color: var(--heading-text-color);
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.trending-container{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content{
+    
+    margin: 1rem;
+}
+
+#main-img{
+    width: 100%;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.card{
+    padding: 1rem;
+    background-color: var(--card-bg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-end;
+    margin: 1rem;
+}
+
+.card-desc{
+    color: var(--desc-text-color);
+    margin-left: 1rem;
+}
+
+#new-arrival-img{
+    width: 100px;
+}
+
+.card-title{
+    color: var(--desc-text-color);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
