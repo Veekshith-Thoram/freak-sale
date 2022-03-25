@@ -1,0 +1,68 @@
+@import url(/styles/common.css);
+@import url(/styles/utility.css);
+
+main{
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#card-img{
+    width: 8rem;
+}
+
+.card{
+    padding: 1rem;
+    background-color: var(--card-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.card-title{
+    color: var(--desc-text-color);
+}
+
+.card-overlay-img{
+    width: 1.3rem;
+    background-color: var(--desc-text-color);
+    border-radius: 999999em;
+}
+
+.dismiss-like{
+    position: relative;
+}
+
+#love-icon{
+    cursor: pointer;
+    position: absolute;
+    left: -0.4rem;
+    top: -0.5rem;
+}
+
+#close-icon{
+    cursor: pointer;
+    position: absolute;
+    right: -0.4rem;
+    top: -0.5rem;
+}
+
+.rate{
+    color: var(--desc-text-color);
+    font-weight: bold;
+}
+
+.cart-btn{
+    cursor: pointer;
+    background-color: var(--ui-header);
+    border: none;
+    color: var(--desc-text-color);
+    padding: 0.5rem;
+    width: 100%;
+}
+
