@@ -1,0 +1,133 @@
+@import url(/styles/utility.css);
+@import url(/styles/common.css);
+
+.cart-img{
+    width: 5rem;
+}
+
+.cart-desc{
+    color: var(--desc-text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left: 1rem;
+}
+
+.cart{
+    background-color: var(--card-bg);
+    width: 20rem;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.cart-data{
+    display: flex;
+}
+
+.cart-heading{
+    font-size: large;
+}
+
+.price{
+    font-size: larger;
+    font-weight: bold;
+}
+
+del{
+    font-size: small;
+}
+
+.discount{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inc-dec{
+    border: none;
+    border-radius: 99999em;
+}
+
+.quant-count{
+    width: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.quant-btn-color{
+    background-color: var(--heading-text-color);
+}
+
+.cart-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-top: 0.3rem;
+}
+
+.remove-btn{
+    cursor: pointer;
+    border: none;
+    padding: 0.3rem;
+    background-color: var(--heading-text-color);
+    color: var(--card-bg);
+    width: 70%;
+}
+
+.move-to-wishlist-btn{
+    cursor: pointer;
+    border: none;
+    padding: 0.3rem;
+    margin-top: 0.3rem;
+    width: 70%;
+}
+
+.price-details{
+    color: var(--heading-text-color);
+}
+
+.price-detail-heading{
+    margin-top: 1rem;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.separator{
+    width: 15rem;
+    margin: 0.5rem;
+    border:0.1px solid var(--ui-header);
+}
+
+.details{
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.save{
+    font-size: small;
+    text-align: center;
+}
+
+.place-order{
+    width: 15rem;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.place-order button{
+    width: 10rem;
+    background-color: var(--ui-header);
+    border: none;
+    padding: 0.5rem;
+    color: var(--heading-text-color);
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading-text{
+    text-align: center;
+}
