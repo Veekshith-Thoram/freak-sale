@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="/products/products.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-left" id="nav-brand">
+            Freak-Sale
+        </div>
+        <div class="header-right">
+            <ul class="list-non-bullet nav-pills">
+                <li class="inline-item right-items" id="search"><input type="search" placeholder="search" /></li>
+                <li class="inline-item right-items" id="login">
+                    <button id="login-btn"><a href="#" id="login-link">Login</a></button>
+                </li>
+                <li class="inline-item right-items count-display"><img src="/images/wishlist-icon.png" alt="wishlist"
+                        id="wishlist-img"><span class="count">0</span></li>
+                <li class="inline-item right-items count-display"><img src="/images/cart-image.png" alt="cart"
+                        id="cart-img"><span class="count">0</span></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <nav class="side-nav">
+            <div class="filters-heading">Filters</div>
+            <div class="price-range flex-column">
+                <label for="range" class="filters-heading">Price range</label>
+                <input type="range" min="0" max="10,000" id="range-bar" />
+            </div>
+            <div class="category flex-column">
+                <div class="filters-heading">Category</div>
+                <label for="philosophy" class="filters-text"><input type="checkbox" name="philosophy" id="philosophy"
+                        class="category-items" />Philosophy</label>
+                <label for="horror" class="filters-text"><input type="checkbox" name="horror" id="horror"
+                        class="category-items" />Horror</label>
+            </div>
+            <div class="rating flex-column">
+                <div class="filters-heading">Rating</div>
+                <label for="five-star" class="filters-text"><input type="radio" name="five-star" id="five-star"
+                        class="rating-items" />5 Star</label>
+                <label for="five-star" class="filters-text"><input type="radio" name="five-star" id="five-star"
+                        class="rating-items" />4 Star</label>
+                <label for="five-star" class="filters-text"><input type="radio" name="five-star" id="five-star"
+                        class="rating-items" />3 Star</label>
+                <label for="five-star" class="filters-text"><input type="radio" name="five-star" id="five-star"
+                        class="rating-items" />2 Star</label>
+                <label for="five-star" class="filters-text"><input type="radio" name="five-star" id="five-star"
+                        class="rating-items" />1 Star</label>
+            </div>
+            <div class="sort flex-column">
+                <div class="filters-heading">Sort</div>
+                <label for="high-low" class="filters-text"><input type="radio" name="high-low" id="high-low"
+                        class="sort-items" />Price: High to Low</label>
+                <label for="high-low" class="filters-text"><input type="radio" name="high-low" id="high-low"
+                        class="sort-items" />Price: Low to High</label>
+            </div>
+        </nav>
+        <div class="main-content">
+            <div class="card-container">
+                <div class="card">
+                    <div class="dismiss-like">
+                        <img src="/images/love-icon.png" alt="wishlist-img" class="card-overlay-img" id="love-icon" />
+                        <img src="/images/close-icon.png" alt="close-icon" class="card-overlay-img" id="close-icon" />
+                        <img src="/images/beyond-good0evil.jpg" alt="book" id="card-img">
+                    </div>
+                    <div class="card-title">Beyond Good And Evil</div>
+                    <div class="rate">₹1000</div>
+                    <button class="cart-btn">Move to Cart</button>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="dismiss-like">
+                        <img src="/images/love-icon.png" alt="wishlist-img" class="card-overlay-img" id="love-icon" />
+                        <img src="/images/close-icon.png" alt="close-icon" class="card-overlay-img" id="close-icon" />
+                        <img src="/images/beyond-good0evil.jpg" alt="book" id="card-img">
+                    </div>
+                    <div class="card-title">Beyond Good And Evil</div>
+                    <div class="rate">₹1000</div>
+                    <button class="cart-btn">Move to Cart</button>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="dismiss-like">
+                        <img src="/images/love-icon.png" alt="wishlist-img" class="card-overlay-img" id="love-icon" />
+                        <img src="/images/close-icon.png" alt="close-icon" class="card-overlay-img" id="close-icon" />
+                        <img src="/images/beyond-good0evil.jpg" alt="book" id="card-img">
+                    </div>
+                    <div class="card-title">Beyond Good And Evil</div>
+                    <div class="rate">₹1000</div>
+                    <button class="cart-btn">Move to Cart</button>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="dismiss-like">
+                        <img src="/images/love-icon.png" alt="wishlist-img" class="card-overlay-img" id="love-icon" />
+                        <img src="/images/close-icon.png" alt="close-icon" class="card-overlay-img" id="close-icon" />
+                        <img src="/images/beyond-good0evil.jpg" alt="book" id="card-img">
+                    </div>
+                    <div class="card-title">Beyond Good And Evil</div>
+                    <div class="rate">₹1000</div>
+                    <button class="cart-btn">Move to Cart</button>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="dismiss-like">
+                        <img src="/images/love-icon.png" alt="wishlist-img" class="card-overlay-img" id="love-icon" />
+                        <img src="/images/close-icon.png" alt="close-icon" class="card-overlay-img" id="close-icon" />
+                        <img src="/images/beyond-good0evil.jpg" alt="book" id="card-img">
+                    </div>
+                    <div class="card-title">Beyond Good And Evil</div>
+                    <div class="rate">₹1000</div>
+                    <button class="cart-btn">Move to Cart</button>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="dismiss-like">
+                        <img src="/images/love-icon.png" alt="wishlist-img" class="card-overlay-img" id="love-icon" />
+                        <img src="/images/close-icon.png" alt="close-icon" class="card-overlay-img" id="close-icon" />
+                        <img src="/images/beyond-good0evil.jpg" alt="book" id="card-img">
+                    </div>
+                    <div class="card-title">Beyond Good And Evil</div>
+                    <div class="rate">₹1000</div>
+                    <button class="cart-btn">Move to Cart</button>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="dismiss-like">
+                        <img src="/images/love-icon.png" alt="wishlist-img" class="card-overlay-img" id="love-icon" />
+                        <img src="/images/close-icon.png" alt="close-icon" class="card-overlay-img" id="close-icon" />
+                        <img src="/images/beyond-good0evil.jpg" alt="book" id="card-img">
+                    </div>
+                    <div class="card-title">Beyond Good And Evil</div>
+                    <div class="rate">₹1000</div>
+                    <button class="cart-btn">Move to Cart</button>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="dismiss-like">
+                        <img src="/images/love-icon.png" alt="wishlist-img" class="card-overlay-img" id="love-icon" />
+                        <img src="/images/close-icon.png" alt="close-icon" class="card-overlay-img" id="close-icon" />
+                        <img src="/images/beyond-good0evil.jpg" alt="book" id="card-img">
+                    </div>
+                    <div class="card-title">Beyond Good And Evil</div>
+                    <div class="rate">₹1000</div>
+                    <button class="cart-btn">Move to Cart</button>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="dismiss-like">
+                        <img src="/images/love-icon.png" alt="wishlist-img" class="card-overlay-img" id="love-icon" />
+                        <img src="/images/close-icon.png" alt="close-icon" class="card-overlay-img" id="close-icon" />
+                        <img src="/images/beyond-good0evil.jpg" alt="book" id="card-img">
+                    </div>
+                    <div class="card-title">Beyond Good And Evil</div>
+                    <div class="rate">₹1000</div>
+                    <button class="cart-btn">Move to Cart</button>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="dismiss-like">
+                        <img src="/images/love-icon.png" alt="wishlist-img" class="card-overlay-img" id="love-icon" />
+                        <img src="/images/close-icon.png" alt="close-icon" class="card-overlay-img" id="close-icon" />
+                        <img src="/images/beyond-good0evil.jpg" alt="book" id="card-img">
+                    </div>
+                    <div class="card-title">Beyond Good And Evil</div>
+                    <div class="rate">₹1000</div>
+                    <button class="cart-btn">Move to Cart</button>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="dismiss-like">
+                        <img src="/images/love-icon.png" alt="wishlist-img" class="card-overlay-img" id="love-icon" />
+                        <img src="/images/close-icon.png" alt="close-icon" class="card-overlay-img" id="close-icon" />
+                        <img src="/images/beyond-good0evil.jpg" alt="book" id="card-img">
+                    </div>
+                    <div class="card-title">Beyond Good And Evil</div>
+                    <div class="rate">₹1000</div>
+                    <button class="cart-btn">Move to Cart</button>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="dismiss-like">
+                        <img src="/images/love-icon.png" alt="wishlist-img" class="card-overlay-img" id="love-icon" />
+                        <img src="/images/close-icon.png" alt="close-icon" class="card-overlay-img" id="close-icon" />
+                        <img src="/images/beyond-good0evil.jpg" alt="book" id="card-img">
+                    </div>
+                    <div class="card-title">Beyond Good And Evil</div>
+                    <div class="rate">₹1000</div>
+                    <button class="cart-btn">Move to Cart</button>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="dismiss-like">
+                        <img src="/images/love-icon.png" alt="wishlist-img" class="card-overlay-img" id="love-icon" />
+                        <img src="/images/close-icon.png" alt="close-icon" class="card-overlay-img" id="close-icon" />
+                        <img src="/images/beyond-good0evil.jpg" alt="book" id="card-img">
+                    </div>
+                    <div class="card-title">Beyond Good And Evil</div>
+                    <div class="rate">₹1000</div>
+                    <button class="cart-btn">Move to Cart</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
