@@ -78,3 +78,9 @@ header{
     padding: 0.1rem;
     border-radius: 999999em;
 }
+
+.alt-sign-link{
+    text-decoration: none;
+    color: var(--ui-header);
+    font-size: 15px;
+}
