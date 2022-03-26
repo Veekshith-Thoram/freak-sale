@@ -89,18 +89,18 @@ del{
     margin-top: 1rem;
     font-size: larger;
     font-weight: bold;
-}
-
-.separator{
-    width: 15rem;
-    margin: 0.5rem;
-    border:0.1px solid var(--ui-header);
+    border-bottom:2px solid var(--ui-header);
 }
 
 .details{
     width: 15rem;
     display: flex;
     justify-content: space-between;
+}
+
+.total-amount{
+    border-top:2px solid var(--ui-header);
+    border-bottom:2px solid var(--ui-header);
 }
 
 .save{
