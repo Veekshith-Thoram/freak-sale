@@ -1,0 +1,26 @@
+@import url(/styles/common.css);
+@import url(/styles/utility.css);
+
+.main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.screens-btn{
+    cursor: pointer;
+    border: none;
+    background-color: var(--ui-header);
+    width: 20%;
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.screens-btn a{
+    text-decoration: none;
+    color: var(--heading-text-color);
+    font-size: large;
+}
